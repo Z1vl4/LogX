@@ -1,6 +1,6 @@
 # LogX v1 – Proof-of-Concept
 
-Denna version utvecklas och utvärderas som en del av ett kandidatarbete inom IT-forensik och informationssäkerhet vid Högskolan i Halmstad, våren 2025.
+Denna version (1) av LogX utvecklas gemensamt av Olivia Meuller och Alva Nilsson Aspnor som en del av ett kandidatarbete i IT-forensik och informationssäkerhet vid Högskolan i Halmstad våren 2025.
 
 ## Syfte
 
@@ -27,5 +27,3 @@ Python 3.10 eller senare används. Beroenden installeras enligt `requirements.tx
 
 ```bash
 pip install -r requirements.txt
-
-> Denna version av LogX utvecklas gemensamt av Olivia Meuller och Alva Nilsson Aspnor inom ramen för ett kandidatarbete vid Högskolan i Halmstad våren 2025.
