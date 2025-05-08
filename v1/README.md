@@ -20,3 +20,10 @@ Verktyget utvecklas för att automatisera logganalys med hjälp av AI samtidigt 
 - Verktyget implementeras i en testmiljö och är inte produktionssatt
 
 För metodik, intervjuer och resultat hänvisas till den fullständiga uppsatsen.
+
+## Installation
+
+Python 3.10 eller senare används. Beroenden installeras enligt `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
