@@ -2,6 +2,9 @@
 
 Denna version (1) av LogX utvecklas gemensamt av Olivia Meuller och Alva Nilsson Aspnor som en del av ett kandidatarbete i IT-forensik och informationssäkerhet vid Högskolan i Halmstad våren 2025.
 
+- **Olivia Meuller** – [LinkedIn](https://se.linkedin.com/in/olivia-meuller-0b0759250)
+- **Alva Nilsson Aspnor** – [LinkedIn](https://se.linkedin.com/in/alvanilssonaspnor)
+
 ## Syfte
 
 Verktyget utvecklas för att automatisera logganalys med hjälp av AI samtidigt som säkerheten förstärks genom enkelriktad kommunikation (one-way communication). Fokus läggs på att minska behovet av manuell granskning utan att kompromissa med tillförlitlighet.
