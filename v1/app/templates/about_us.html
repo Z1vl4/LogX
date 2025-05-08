@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Om oss</title>
+    <link href="{{ url_for('static', filename='CSS/about.css') }}" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="bottomSection">
+            <a href="https://github.com/Z1vl4/LogX.git" class="github" target="_blank">
+                <img src="{{ url_for('static', filename='images/GitHub_Logo.png') }}" alt="GitHub Logo">
+            </a>
+        </div>
+
+        <div class="logAnalyzerLogo">
+            <a href="{{ url_for('dashboard.index') }}">
+                <img src="{{ url_for('static', filename='images/logAnalyzerLogo.png') }}" alt="Log Analyzer Logo">
+            </a>
+        </div>
+    </div>
+
+    <div class="content-about">
+        <h1>Vad är Log Analyzer?</h1>
+        <h2>Hallå där!</h2>
+        <p>Vi är två studenter från Högskolan i Halmstad som är glada att du har hittat hit! Detta logganalysverktyg är resultatet av vårt examensarbete 2025, och vi är stolta över att få dela det med er.</p>
+        <p>Verktyget är utvecklat för att analysera inkommande loggar i realtid med hjälp av OpenAI, en spännande och innovativ lösning på logganalys. Vi tror att AI kan spela en avgörande roll i att förbättra säkerheten och effektiviteten vid analys av loggar.</p>
+        <p>Under de senaste åren har flera allvarliga attacker visat på de stora utmaningarna med traditionell logganalys, särskilt när det gäller användning av tvåvägskommunikation. Ett av de mest kända exemplen är SolarWinds-attacken 2020, där angripare lyckades injicera skadlig kod i en uppdatering av SolarWinds mjukvara. Denna attack ledde till att känslig information om SolarWinds kunder stals.</p>
+        <p>För att minska riskerna som kan uppstå vid användning av tvåvägskommunikation beslutade vi oss för att kombinera <strong>envägskommunikation</strong> med AI. Detta har visat sig vara en mycket effektiv metod för att förbättra logganalys och göra det enklare att upptäcka potentiella hot i realtid.</p>
+        <p>Vi hoppas att vårt verktyg kan bidra till att förbättra säkerheten för många och skapa en mer pålitlig och effektiv lösning för logganalys.</p>
+
+        <h2>Vilka är vi?</h2>
+        <p>Vi heter Olivia och Alva, läser sista terminen på IT-forensik och informationssäkerhetsprogrammet i Halmstad.
+           Vi valde att göra detta projekt för att ge oss själva en rolig utmaning och för att få skapa något, dessutom kompletterar vi varandra bra med en som fastnat färmst för backend och en för frontend.</p>
+
+        
+        <h3>Följ oss på LinkedIn</h3>
+        <ul>
+            <li>
+                <a href="https://se.linkedin.com/in/olivia-meuller-0b0759250" class="linkedin" target="_blank">
+                    <img src="{{ url_for('static', filename='images/linkedin_logo.png') }}" alt="LinkedIn Logo">
+                    <p>Olivia Meuller</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://se.linkedin.com/in/alvanilssonaspnor" class="linkedin" target="_blank">
+                    <img src="{{ url_for('static', filename='images/linkedin_logo.png') }}" alt="LinkedIn Logo">
+                    <p>Alva Nilsson Aspnor</p>
+                </a>
+            </li>
+        </ul>
+
+
+        <button class="back-button">
+            <a href="{{ url_for('dashboard.index') }}" class="back-link">Tillbaka</a>
+        </button>
+
+    </div>
+
+</body>
+
+</html>
+

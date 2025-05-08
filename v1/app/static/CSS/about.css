@@ -1,0 +1,162 @@
+/* ===================== ABOUT US - PAGE ================== */
+
+/* ========= GLOBAL STYLES ========= */
+
+body {
+    background-color: #F5F5F5;
+    font-family: sans-serif;
+  }
+  
+  /* ========= NAVBAR ========= */
+  .navbar {
+  width: 210px;
+  background: linear-gradient(135deg, #2e3943, #323e3e);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  font-size: small;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  .navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: 0.3s;
+  width: 100%; 
+  text-align: left; 
+}
+
+.navbar a:not(.logAnalyzerLogoLink):hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+    
+h2 {
+  margin-left: 5px;
+}
+  
+  
+  /* ========== IMAGES & LOGOS IN NAVBAR =========== */
+  
+  .github {
+    margin-top: auto;
+    text-align: center;
+  }
+  
+  .github img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    align-items: center;
+    display: block;
+  }
+  
+  .linkedin {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+  width: 100%; 
+  padding: 10px 15px; 
+  transition: 0.3s;
+}
+  
+  .linkedin img {
+    width:50px;
+    height:50px;
+    margin-left:4px;
+    margin-right: 10px;
+  }
+
+  .logAnalyzerLogo {
+    margin-top: 20px;  
+    text-align: center;
+  }
+
+  .logAnalyzerLogo img {
+  width: 190px;
+  height: 210px;
+  margin: 20px auto; 
+  display: block; 
+}  
+
+.logAnalyzerLogo img:hover {
+  transform: scale(1.10);  
+}
+
+.bottomSection {
+    flex-grow: 1; 
+}
+
+.content-about {
+  margin-left: 220px;
+}
+
+button.back-button {
+  background: #314a53;
+  color: white;
+  border: none;
+  padding: 10px 20px;  
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+  margin: 15px auto;  
+  text-align: center; 
+}
+
+button.back-button:hover {
+  background: #3c8194;
+}
+
+button.back-button a {
+  text-decoration: none;
+  color: white;
+  display: block; 
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 10px 10px; 
+}
+
+
+h1 {
+  font-size: 32px;
+  color: #2e3943;
+}
+
+h2, h3 {
+  font-size: 24px;
+  color: #2e3943;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+ul li {
+  margin-bottom: 0; 
+}
+
+
+
