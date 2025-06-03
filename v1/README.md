@@ -25,6 +25,9 @@ Verktyget utvecklas för att automatisera logganalys med hjälp av AI samtidigt 
 
 För metodik, intervjuer och resultat hänvisas till den fullständiga uppsatsen.
 
+## Dashboard
+![](https://github.com/LogX/v1/LogX.gif)
+
 ## Installation
 
 Python 3.10 eller senare används. Beroenden installeras enligt `requirements.txt`:
